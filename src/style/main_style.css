@@ -1,0 +1,45 @@
+body, main, html {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(35, 35, 35) !important;
+}
+
+.center-disp {
+    display: block;
+    width: 80%;
+    height: 80%;
+}
+
+.disp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 70%;
+    position: relative;
+    float: none;
+    background-color: red;
+}
+
+.hello-world, form[action="shell_command.php"] {
+    background-color: #000;
+    width: 100%;
+    float: right;
+}
+
+input[type="search"], input[type="search"]:focus {
+    border: none;
+    outline: none;
+}
+.command {
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+link {
+    text-decoration: none !important;
+}
